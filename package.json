@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Smoke_batch": "playwright test --config=smoke.config.js", 
+    "Regression_batch": "playwright test --config=playwright.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.7"
+  },
+  "dependencies": {
+    "csv": "^6.3.6",
+    "xlsx": "^0.18.5"
+  }
+}
